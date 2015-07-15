@@ -13,10 +13,10 @@ Tests for Parallel Computing and Optimisation with Python
    - See other repo.
  - Pathos
    - MPI-based launcher, a ssh-based launcher, a multiprocessing launcher, a map-reduce algorithm. Pathos is divided into four subpackages:
-     - dill: a utility for serialization of python objects
-     - pox: utilities for filesystem exploration and automated builds
-     - pyina: a MPI-based parallel mapper and launcher
-     - pathos: distributed parallel map-reduce and ssh communication
+      - dill: a utility for serialization of python objects
+      - pox: utilities for filesystem exploration and automated builds
+      - pyina: a MPI-based parallel mapper and launcher
+      - pathos: distributed parallel map-reduce and ssh communication
 - Optimisation
  - Cython
    - See examples in Python Tests repo.
