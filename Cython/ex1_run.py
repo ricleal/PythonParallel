@@ -17,6 +17,7 @@ import timing
 def launch_function(func,l):
     return func(copy.copy(l)).all()
 
+print('Starting bubble sort comparison...')
 random.seed(4354353)
 l = np.asarray([random.randint(1,1000) for num in xrange(1, 3000)])
 
