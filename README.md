@@ -21,3 +21,4 @@ Tests for Parallel Computing and Optimisation with Python
  - Cython
    - See examples in Python Tests repo.
  - Numba
+   - Using just-in-time compilation.
