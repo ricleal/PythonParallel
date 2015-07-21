@@ -5,11 +5,11 @@ Tests for Parallel Computing and Optimisation with Python
 
 ## Dask:
 
-- Parallel computing: threading, multiprocessing, rtc.. (no need for launching a cluster)
+- Parallel computing: threading, multiprocessing, etc.. (no need for launching a cluster)
 - Talk from SciPy: https://speakerdeck.com/jcrist/pandas-through-task-scheduling
 
   - dask.array = numpy + threading
-  - dask.bag = map, filter, toolz + multiprocessing
+  - dask.bag = map, filter, itertools, toolz + multiprocessing
   - dask.dataframe = pandas + threading
 
 ## DistArray
