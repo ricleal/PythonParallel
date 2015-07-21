@@ -1,10 +1,11 @@
 """
-Fibonnaci function
+Cython functions!
 """
 
 def fib(n):
     """
     Print the Fibonacci series up to n.
+    As python but declared in a pyx file!
     """
     a, b = 0, 1
     while b < n:
