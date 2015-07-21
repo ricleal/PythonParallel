@@ -5,12 +5,12 @@ Tests for Parallel Computing and Optimisation with Python
 
 ## Dask:
 
-- Parallel computing (no need for launching a cluster)
+- Parallel computing: threading, multiprocessing, rtc.. (no need for launching a cluster)
 - Talk from SciPy: https://speakerdeck.com/jcrist/pandas-through-task-scheduling
 
-- dask.array = numpy + threading
-- dask.bag = map, filter, toolz + multiprocessing
-- dask.dataframe = pandas + threading
+  - dask.array = numpy + threading
+  - dask.bag = map, filter, toolz + multiprocessing
+  - dask.dataframe = pandas + threading
 
 ## DistArray
 
@@ -40,8 +40,23 @@ The Distributed Array Protocol (DAP) is a process-local protocol that allows two
 
 ## Cython
 
-- See examples in Python Tests repo.
+- Can invoke C/C++ routines 
+- Declares static type of subroutine parameters and results, local variables, and class attributes.
+- I.e. Python to C source code translator that integrates with the CPython interpreter on a low level.
 
 ## Numba
 
-- Using just-in-time compilation.
+- Numba works by generating optimized machine code using the LLVM compiler infrastructure.
+```python
+# jit decorator tells Numba to compile this function.
+# The argument types will be inferred by Numba when function is called.
+@jit
+def sum2d(arr):
+```
+- A function can be compiled into a Numpy ufunc using:
+```python
+@vectorize([float64(float64, float64)])
+def f(x, y):
+    return x + y
+```
+
