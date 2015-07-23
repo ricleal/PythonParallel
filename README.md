@@ -13,6 +13,7 @@ Tests for Parallel Computing and Optimisation with Python
   - dask.dataframe = pandas + threading
 
 https://github.com/ContinuumIO/dask
+
 http://dask.pydata.org/
 
 ## DistArray
@@ -23,6 +24,7 @@ The Distributed Array Protocol (DAP) is a process-local protocol that allows two
 - Notebook: https://github.com/enthought/distarray/blob/master/examples/features.ipynb
 
 https://github.com/enthought/distarray
+
 http://docs.enthought.com/distarray/
 
 ## Xray
@@ -31,6 +33,7 @@ http://docs.enthought.com/distarray/
 - Notebook [here](http://nbviewer.ipython.org/urls/gist.githubusercontent.com/shoyer/be3749849809fe35efa8/raw/d3ac4af07343391ef005d2dbea80368efc9ee1f6/xray-demo-python-workers-party.ipynb).
 
 https://github.com/xray/xray
+
 http://xray.readthedocs.org
 
 ## IPython parallel
@@ -39,6 +42,7 @@ http://xray.readthedocs.org
 - Or MPI cluster: ```ipcluster start --profile=mpi -n 4```
 
 https://ipython.org/ipython-doc/3/parallel/parallel_intro.html
+
 http://ipython.org/ipython-doc/dev/parallel/
 
 ## Pathos
@@ -48,6 +52,8 @@ http://ipython.org/ipython-doc/dev/parallel/
   - pyina: a MPI-based parallel mapper and launcher
   - pathos: distributed parallel map-reduce and ssh communication
 
+https://github.com/uqfoundation/pathos
+
 # Optimisation
 
 ## Cython
@@ -55,6 +61,11 @@ http://ipython.org/ipython-doc/dev/parallel/
 - Can invoke C/C++ routines 
 - Declares static type of subroutine parameters and results, local variables, and class attributes.
 - I.e. Python to C source code translator that integrates with the CPython interpreter on a low level.
+
+http://cython.org/
+
+http://docs.cython.org/
+
 
 ## Numba
 
@@ -71,4 +82,8 @@ def sum2d(arr):
 def f(x, y):
     return x + y
 ```
+
+https://github.com/numba/numba
+
+http://numba.pydata.org/
 
