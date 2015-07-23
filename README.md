@@ -12,6 +12,9 @@ Tests for Parallel Computing and Optimisation with Python
   - dask.bag = map, filter, itertools, toolz + multiprocessing
   - dask.dataframe = pandas + threading
 
+https://github.com/ContinuumIO/dask
+http://dask.pydata.org/
+
 ## DistArray
 
 The Distributed Array Protocol (DAP) is a process-local protocol that allows two subscribers, called the producer and the consumer or the exporter and the importer, to communicate the essential data and metadata necessary to share a distributed-memory array between them.
@@ -19,15 +22,24 @@ The Distributed Array Protocol (DAP) is a process-local protocol that allows two
 - Needs IPython da cluster running: ```dacluster start -n4```
 - Notebook: https://github.com/enthought/distarray/blob/master/examples/features.ipynb
 
+https://github.com/enthought/distarray
+http://docs.enthought.com/distarray/
+
 ## Xray
 
 - Extension to pandas for multi-dimensional and parallel processing
 - Notebook [here](http://nbviewer.ipython.org/urls/gist.githubusercontent.com/shoyer/be3749849809fe35efa8/raw/d3ac4af07343391ef005d2dbea80368efc9ee1f6/xray-demo-python-workers-party.ipynb).
 
+https://github.com/xray/xray
+http://xray.readthedocs.org
+
 ## IPython parallel
 
 - Needs IPython cluster running: ```ipcluster start -n 4```
 - Or MPI cluster: ```ipcluster start --profile=mpi -n 4```
+
+https://ipython.org/ipython-doc/3/parallel/parallel_intro.html
+http://ipython.org/ipython-doc/dev/parallel/
 
 ## Pathos
 - MPI-based launcher, a ssh-based launcher, a multiprocessing launcher, a map-reduce algorithm. Pathos is divided into four subpackages:
