@@ -86,3 +86,14 @@ https://github.com/numba/numba
 
 http://numba.pydata.org/
 
+# More
+
+## ODO
+
+To convert file format:
+https://odo.readthedocs.org/en/latest/
+
+## Blaze
+
+For everything:
+http://blaze.pydata.org/
