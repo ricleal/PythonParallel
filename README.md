@@ -4,7 +4,6 @@ Tests for Parallel Computing and Optimisation with Python
 # Parallel Processing
 
 ## Dask:
-
 - Parallel computing: threading, multiprocessing, etc.. (no need for launching a cluster)
 - Talk from SciPy: https://speakerdeck.com/jcrist/pandas-through-task-scheduling
 
@@ -28,8 +27,8 @@ https://github.com/enthought/distarray
 http://docs.enthought.com/distarray/
 
 ## Xray
-
-- Extension to pandas for multi-dimensional and parallel processing
+- Extension to pandas for labeled multi-dimensional arrays.
+- Parallel processing
 - Notebook [here](http://nbviewer.ipython.org/urls/gist.githubusercontent.com/shoyer/be3749849809fe35efa8/raw/d3ac4af07343391ef005d2dbea80368efc9ee1f6/xray-demo-python-workers-party.ipynb).
 
 https://github.com/xray/xray
