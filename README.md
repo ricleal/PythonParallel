@@ -4,16 +4,44 @@ Tests for Parallel Computing and Optimisation with Python
 # Parallel Processing
 
 ## Dask:
+
 - Parallel computing: threading, multiprocessing, etc.. (no need for launching a cluster)
 - Talk from SciPy: https://speakerdeck.com/jcrist/pandas-through-task-scheduling
 
   - dask.array = numpy + threading
+  - dask.dataframe = pandas + threading  
   - dask.bag = map, filter, itertools, toolz + multiprocessing
-  - dask.dataframe = pandas + threading
+  
+Dask releasing the GIL with Numba:
+http://dask.readthedocs.org/en/latest/array-api.html#dask.array.core.Array.map_blocks
+
+Dask.array: Calculations with arrays bigger than your memory:
+http://earthpy.org/dask.html
+
+Video:
+https://www.youtube.com/watch?v=HLME2WKTJJ8
 
 https://github.com/ContinuumIO/dask
 
 http://dask.pydata.org/
+
+## Xray
+- Extension to pandas for labeled multi-dimensional arrays.
+- Parallel processing
+- Notebook [here](http://nbviewer.ipython.org/urls/gist.githubusercontent.com/shoyer/be3749849809fe35efa8/raw/d3ac4af07343391ef005d2dbea80368efc9ee1f6/xray-demo-python-workers-party.ipynb).
+
+https://github.com/xray/xray
+
+http://xray.readthedocs.org
+
+## Xray + Dask:
+
+Xray provides labeled, multi-dimensional arrays. Dask provides a system for parallel computing. Together, they allow for easy analysis of scientific datasets that don’t fit into memory.
+
+Example:
+https://www.continuum.io/content/xray-dask-out-core-labeled-arrays-python
+
+
 
 ## DistArray
 
@@ -26,14 +54,6 @@ https://github.com/enthought/distarray
 
 http://docs.enthought.com/distarray/
 
-## Xray
-- Extension to pandas for labeled multi-dimensional arrays.
-- Parallel processing
-- Notebook [here](http://nbviewer.ipython.org/urls/gist.githubusercontent.com/shoyer/be3749849809fe35efa8/raw/d3ac4af07343391ef005d2dbea80368efc9ee1f6/xray-demo-python-workers-party.ipynb).
-
-https://github.com/xray/xray
-
-http://xray.readthedocs.org
 
 ## IPython parallel
 
