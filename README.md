@@ -1,5 +1,6 @@
-# PythonParallel
-Tests for Parallel Computing and Optimisation with Python
+# SciPy 2015 Summary
+
+Mainly tests for Parallel Computing and Optimisation with Python
 
 # Parallel Processing
 
